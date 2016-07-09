@@ -54,15 +54,12 @@ nav:
     url: /categories.html
   - text: 文章归档
     url: /archives.html
-  <!--
   - text: 关于我
     url: /about.html
   - text: 友情链接
     url: /links.html
-  -->
-
+    
 #Author config
-<!--
 author:
     name: zhujiajun
     email: zhujiajun.me@gmail.com
@@ -110,7 +107,7 @@ customLinks:
     - text: Java By Nataraj
       url: http://javabynataraj.blogspot.in/
     message: About Java
--->
+
 #googleAnaly, your id link UA-12345678-X
 googleAnaly:
   config: false
