@@ -6,7 +6,7 @@ published: true
 
 以Bootstrap为框架制作在线简历/个人博客：
 
-1.在官方网站：www.github.com上注册一个账号。</br>
+1.在官方网站：www.github.com 上注册一个账号。</br>
 2.在github上新建一个仓库，创建个人站点。</br>
 3.下载并安装git软件，并以此配置SSH生成密钥，具体过程如下：</br>
   打开Git Bash，输入命令：</br>
