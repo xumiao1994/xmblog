@@ -5,7 +5,7 @@ pygments: true
 base_url: http://xumiao1994.github.io/xmblog
 frontpage_posts: 4
 
-<<<<<<< HEAD <<<<<<<<<
+# head
 name: Shallow Thoughts
 permalink: /posts/:title.html
 =======
