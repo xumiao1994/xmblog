@@ -9,11 +9,11 @@ published: true
 1.在官方网站：www.github.com上注册一个账号。</br>
 2.在github上新建一个仓库，创建个人站点。</br>
 3.下载并安装git软件，并以此配置SSH生成密钥，具体过程如下：</br>
-  打开Git Bash，输入命令:</br>
+  打开Git Bash，输入命令：</br>
   $ ssh-keygen -t rsa -C "youremail@example.com"</br>
   在用户主目录里找到.ssh目录，里面有id_rsa和id_rsa.pub两个文件，这两个就是SSH Key的秘钥对，id_rsa是私钥，不能泄露出去，id_rsa.pub是公钥</br>
   登陆GitHub，打开“Account settings”，“SSH Keys”页面，点“Add SSH Key”，填上任意Title，在Key文本框里粘贴id_rsa.pub文件的内容（即公钥）</br>
-  根据GitHub的提示，在本地的learngit仓库下运行命令:</br>
+  根据GitHub的提示，在本地的learngit仓库下运行命令：</br>
   $ git remote add origin git@github.com:xumiao1994.github.io/cqc.git</br>
   注意，把上面的 cqcre 替换成你自己的GitHub账户名</br>
   下一步把本地库的所有内容推送到远程库上：</br>
@@ -26,7 +26,7 @@ published: true
   git remote add origin https://github.com/findingsea/myRepoForBlog.git</br>
 　git push origin master</br>
 6.建立一个分支，利用Github Pages + Jekyll建立博客，用git将本地的博客文件上传并部署到新建的分支中，上传步骤如下：</br>
-  打开Git Bash，输入以下命令切换到你想放置本地代码仓库的位置:</br>
+  打开Git Bash，输入以下命令切换到你想放置本地代码仓库的位置：</br>
   $ cd {本地路径}     // 比如：cd xmblog</br>
   在Bash中依次执行以下三个命令完成文件的上传：</br>
   $ git add .</br>
