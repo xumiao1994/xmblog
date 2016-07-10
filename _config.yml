@@ -6,4 +6,4 @@ base_url: https://xumiao1994.github.io/xmblog
 frontpage_posts: 4
 
 name: Shallow Thoughts
-permalink: /posts/:title.html
+permalink: /xmblog/xmblog/posts/:title.html
