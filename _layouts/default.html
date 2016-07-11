@@ -1,107 +1,72 @@
-<!doctype html>
-<html lang="en-US">
-    <head>
-        <meta charset="utf-8"/>
-        <!--[if IE]><![endif]-->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="google-site-verification" content="yOehIV2HtlnNr3L0RyUj3lqJtZQjXI8LBu9z_OTuLWY" />
-        <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
-        <meta name="description" content="Personal blog regarding Tech News, Apple , Design and Guides from Carlos Eduardo."/>
-        <meta name="author" content="Carlos Eduardo de Paula"/>
-        <meta name="copyright" content="Copyright 2010 to Present"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <!--ALL CONTENT COPYRIGHT Carlos Eduardo de Paula 2010-2011 UNLESS OTHERWISE NOTED-->
-        <link href='https://fonts.gmirror.org/css?family=Lato' rel='stylesheet' type='xmblog/text/css'>
-        <link href="https://plus.google.com/104461449883701745165" rel="publisher"/>
-        <link rel="canonical" href="http://carlosedp.com"/>
-        <link rel="apple-touch-icon" href="/touch-icon.png"/>
-        <link href="https://feeds.feedburner.com/shallow-thoughts" rel="alternate" title="Shallow Thoughts Feed" type="application/atom+xml" />
+<!DOCTYPE html>
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/xmblog/css/syntax.css" type="xmblog/text/css" />
+<!--
+o  o  o-O-o  o   o  o   o  o-oo  o-O-o  o-O-o    o-o    O  
+| /     |    |\  |  |\  |  |       |      |     /      / \ 
+OO      |    | \ |  | \ |  O-o     |      |    O      o-o-o
+| \     |    |  \|  |  \|  |       |      |     \     |   |
+o  o  o-O-o  o   o  o   o  o-oo    o    o-O-o    o-o  o   o
+-->
 
-        <!-- Homepage CSS -->
-        <link rel="stylesheet" href="/xmblog/css/screen.css" type="xmblog/text/css" media="screen, projection" />
-    </head>
-    <body>
-        <div class="bands">
-            <div class="b1"></div>
-            <div class="b2"></div>
-            <div class="b3"></div>
-            <div class="b4"></div>
-        </div>
-        <div id="container">
-            <div id="header">
-                {% if page.title %}
-                    <a href="/"><h1 class="title">{{ site.name }}</h1></a>
-                {% else %}
-                    <h1 class="title">{{ site.name }}</h1>
-                {% endif %}
-            </div>
-            <div id="nav-left">
-                <div id="about-box">
+<html lang="en">
+<head>
+  <title>{{ page.title }}</title>
 
-                    <span class="name">徐淼</span>
-                    <br/><br/>
-                    <span class="about">今日鬓丝禅榻畔，茶烟轻扬落花风。</span>
-                    <br/><br/>
-                </div>
-                <br/>
-                <ul>
-                    <li><a href="https://xumiao1994.github.io/">主页</a></li>
-                    <li><a href="/xmblog/archives">文章</a></li>
-                    <li><a href="/xmblog/about">关于我</a></li>
-                </ul>
-               
-            </div>
-            <div id="content">
-                {{ content }}
-            </div>
+  <meta charset="utf-8" />
+  <meta name="author" content="Michael Levin" />
+  <meta content="{{page.description}}" name="description" />
+  <meta content="{{page.keywords}}" name="keywords" />
+  <meta name="google-site-verification" content="DqAgloRCaHDsh-QjkR1GFjGY6DfghzQTrQavEK0p9Bg" />
 
-            <div id="footer">
-                <div class="contact">
-                    <p>
-                        联系我:
-                        1152694271@qq.com</a><br/>
-                    </p>
-                </div>
-                <div class="icons">
-                    <a href="https://github.com/carlosedp/">
-                        <img src="/xmblog/images/icons/Github-Icon-Small.png" alt="Github"/>
-                    </a>
-                    <a href="https://plus.google.com/104461449883701745165">
-                        <img src="/xmblog/images/icons/GooglePlus-Icon-Small.png" alt="Google+"/>
-                    </a>
-                    <a href="https://twitter.com/carlosedp">
-                        <img src="/xmblog/images/icons/Twitter-Icon-Small.png" alt="Twitter"/>
-                    </a>
-                    <a href="https://facebook.com/carlosedp">
-                        <img src="/xmblog/images/icons/Facebook-Icon-Small.png" alt="Facebook"/>
-                    </a>
-                    <a href="https://flickr.com/photos/carlosedp">
-                        <img src="/xmblog/images/icons/Flickr-Icon-Small.png" alt="Flickr"/>
-                    </a>
-                    <a href="https://feeds.feedburner.com/shallow-thoughts">
-                        <img src="/xmblog/images/icons/rss.png" alt="Subscribe to RSS Feed"/>
-                    </a>
-                </div>
-            </div>
+  <link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="alternate" type="application/atom+xml" title="Kinnetica" href="http://feeds.feedburner.com/kinnetica" />
 
-        </div>
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:extralight' rel='stylesheet' type='text/css'>
 
-        <!-- Google Analytics -->
-        <script>
-            var _gaq = [['_setAccount', 'UA-555853-6'], ['_trackPageview']];
-            setTimeout("_gaq.push(['_trackEvent', '15_seconds', 'read'])", 15000);
-            (function(d, t) {
-                var g = d.createElement(t),
-                s = d.getElementsByTagName(t)[0];
-                g.async = true;
-           <!-- g.src = '//www.google-analytics.com/ga.js'; -->
-                s.parentNode.insertBefore(g, s);
-            })(document, 'script');
-        </script>
-        <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-        <script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
-    </body>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body>
+  <div id="page-wrap">
+    <div id="header">
+      <h1 id="main-title">
+        <a href="/">Kinnetica</a>
+      </h1>
+    </div>
+    <div id="nav">
+      <ul>
+        <li><a href="/archive/">Archive</a></li>
+        <li><a href="/projects/">Projects</a></li>
+        <li>
+          <a href="http://feeds.feedburner.com/kinnetica" onclick="javascript: _gaq.push(['_trackPageview', '/G3/feeds.feedburner.com/kinnetica']);"><img src="/images/rss.png" border="0" alt="Subscribe via RSS" title="Subscribe via RSS"/></a>
+          <a href="http://www.linkedin.com/in/levinm" onclick="javascript: _gaq.push(['_trackPageview', '/G2/linkedin.com']);"><img src="/images/linkedin.png" alt="Connect on LinkedIn" title="Connect on LinkedIn" border="0" /></a>
+          <a href="http://www.twitter.com/kinnetica" onclick="javascript: _gaq.push(['_trackPageview', '/G1/twitter.com']);"><img src="/images/twitter.png" alt="Follow on Twitter" title="Follow on Twitter" border="0" /></a>
+        </li>
+      </ul>
+    </div>
+    <div style="clear:both;"></div>
+    <div id="content-wrap">
+      {{ content }}
+    </div>
+    <div id="footer">
+      <p>&copy; 2011 Michael Levin. Licensed under <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons</a>. Icons by <a href="http://www.komodomedia.com">Komodo Media</a>. Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a>.</p>
+    </div>
+  </div>
+  <!-- Google Analytics -->
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-9419543-1']);
+    _gaq.push(['_trackPageview']);
+    _gaq.push(['_trackPageLoadTime']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript';               
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  
+  <!-- Google +1 -->
+  <script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
+</body>
 </html>

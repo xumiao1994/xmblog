@@ -1,9 +1,7 @@
-exclude: ['sass', 'README.markdown', 'config.rb', 'Rakefile']
-markdown: rdiscount
+url: www.kinnetica.com
 pygments: true
-
-base_url: https://xumiao1994.github.io/xmblog
-frontpage_posts: 4
-
-name: Shallow Thoughts
-permalink: /xmblog/xmblog/posts/:title.html
+permalink: pretty
+markdown: rdiscount
+paginate: 5
+exclude: ["deploy.sh", "README.md"]
+relative_permalinks: false

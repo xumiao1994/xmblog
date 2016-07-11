@@ -1,43 +1,11 @@
 ---
 layout: default
 ---
-<div class="post">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <time class="date" datetime="{{ page.date | date: "%Y-%m-%d" }}">
-    {{ page.date | date: "<em>%d</em><small>%b<br>%Y</small>" }}
-    </time>
-    <div class="post-content">
-        {{ content  }}
-    </div>
-    <div class="tweet">
-        <a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="{{site.base_url}}{{ page.url }}" data-text="Shallow Thoughts - {{page.title}}" data-via="carlosedp">Tweet</a>
-    </div>
-    <div class="plusone">
-        <g:plusone size="small" href="{{site.base_url}}{{ page.url }}"></g:plusone>
-    </div>
+<div class="single-post">
+  <h2 class="internal" style="display:inline;">{{ page.title }}</h2>
+  <span class="plus-one"><g:plusone size="medium" count="false"></g:plusone></span>
+  <p class="date-sub-head"><a href="/about">Michael Levin</a> | {{ page.date | date: "%A, %B %d, %Y" }}</p>
+  <p>{{ content }}</p>
 </div>
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'shallowthoughts';
-    var disqus_url = '{{site.base_url}}{{ page.url }}';
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://shallowthoughts.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 
-<div id="previous">
-    <h1 class="with-border">Previous Posts</h1>
-    <ul class="posts">
-        {% for post in site.posts limit:4 %}
-        <li>
-            <span>{{ post.date | date_to_string }}</span> &raquo;
-            <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endfor %}
-    </ul>
-    <a href="{{site.base_dir}}/archives">More posts &raquo;</a>
-</div>
+<p class="post-footer">Have a comment? Send me an <a href="mailto:&#109;&#105;&#099;&#104;&#097;&#101;&#108;&#064;&#107;&#105;&#110;&#110;&#101;&#116;&#105;&#099;&#097;&#046;&#099;&#111;&#109;">email</a> or a tweet <a href="http://www.twitter.com/kinnetica" onclick="javascript: _gaq.push(['_trackPageview', '/G4/twitter.com']);">@kinnetica</a>.</p>
