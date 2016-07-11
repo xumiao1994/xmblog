@@ -22,9 +22,9 @@ published: true
 5.通过git软件将简历作为网站的主页上传并部署到仓库中，具体过程如下：</br>
   在文件夹下打开Git Bash，输入以下命令：</br>
   git add .</br>
-　git commit -m 'first_commit'</br>
+  git commit -m 'first_commit'</br>
   git remote add origin https://github.com/findingsea/myRepoForBlog.git</br>
-　git push origin master</br>
+  git push origin master</br>
 6.建立一个分支，利用Github Pages + Jekyll建立博客，用git将本地的博客文件上传并部署到新建的分支中，上传步骤如下：</br>
   打开Git Bash，输入以下命令切换到你想放置本地代码仓库的位置：</br>
   $ cd {本地路径}     // 比如：cd xmblog</br>
