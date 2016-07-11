@@ -2,7 +2,7 @@ exclude: ['sass', 'README.markdown', 'config.rb', 'Rakefile']
 markdown: rdiscount
 pygments: true
 
-base_url: https://xumiao1994.github.io/xmblog/
+base_url: https://xumiao1994.github.io
 frontpage_posts: 4
 
 name: Shallow Thoughts
