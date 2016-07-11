@@ -1,6 +1,6 @@
 url: xumiao1994.github.io/xmblog
 pygments: true
-permalink: pretty
+permalink: xmblog/pretty
 markdown: rdiscount
 paginate: 5
 exclude: ["deploy.sh", "README.md"]
