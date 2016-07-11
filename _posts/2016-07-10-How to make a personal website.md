@@ -35,10 +35,10 @@ published: true
 7.将博客链接到主页上。</br>
 
 【视频教程】
-<embed src="http://player.youku.com/player.php/Type/Folder/Fid/27614665/Ob/1/sid/XMTYzNzY5MDU0OA==/v.swf" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" allowFullScreen="true" mode="transparent" type="application/x-shockwave-flash"></embed></br>
+<embed src="http://player.youku.com/player.php/sid/XMTYzOTc3MDUyOA==/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
 
 【视频链接】
-[www.shipin.com](http://v.youku.com/v_show/id_XMTYzNzY5MDU0OA==.html?f=27614665&from=y1.3-idx-beta-1519-23042.223465.4-1#paction)
+[http://v.youku.com/v_show/id_XMTYzOTc3MDUyOA==.html?firsttime=10#paction](http://v.youku.com/v_show/id_XMTYzOTc3MDUyOA==.html?firsttime=10#paction)
 
 
 
