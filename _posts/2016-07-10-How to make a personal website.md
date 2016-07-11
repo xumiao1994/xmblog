@@ -6,9 +6,10 @@ published: true
 
 以Bootstrap为框架制作在线简历/个人博客：
 
-1.在官方网站：www.github.com 上注册一个账号。</br>
-2.在github上新建一个仓库，创建个人站点。</br>
-3.下载并安装git软件，并以此配置SSH生成密钥，具体过程如下：</br>
+1.选择合适的语言（我选择的是eclipse Java 1.7）在本地建立一个web工程并编写简历。</br>
+2.在官方网站：www.github.com 上注册一个账号。</br>
+3.在github上新建一个仓库，创建个人站点。</br>
+4.下载并安装git软件，并以此配置SSH生成密钥，具体过程如下：</br>
   打开Git Bash，输入命令：</br>
   $ ssh-keygen -t rsa -C "youremail@example.com"</br>
   在用户主目录里找到.ssh目录，里面有id_rsa和id_rsa.pub两个文件，这两个就是SSH Key的秘钥对，id_rsa是私钥，不能泄露出去，id_rsa.pub是公钥</br>
@@ -18,7 +19,6 @@ published: true
   注意，把上面的 cqcre 替换成你自己的GitHub账户名</br>
   下一步把本地库的所有内容推送到远程库上：</br>
   $ git push -u origin master</br>
-4.选择合适的语言（我选择的是eclipse Java 1.7）在本地建立一个web工程并编写简历。</br>
 5.通过git软件将简历作为网站的主页上传并部署到仓库中，具体过程如下：</br>
   在文件夹下打开Git Bash，输入以下命令：</br>
   git add .</br>
@@ -34,8 +34,10 @@ published: true
   $ git push origin gh-pages</br>
 7.将博客链接到主页上。</br>
 
+【视频教程】
 <embed src="http://player.youku.com/player.php/Type/Folder/Fid/27614665/Ob/1/sid/XMTYzNzY5MDU0OA==/v.swf" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" allowFullScreen="true" mode="transparent" type="application/x-shockwave-flash"></embed></br>
 
+【视频链接】
 [www.shipin.com](http://v.youku.com/v_show/id_XMTYzNzY5MDU0OA==.html?f=27614665&from=y1.3-idx-beta-1519-23042.223465.4-1#paction)
 
 
